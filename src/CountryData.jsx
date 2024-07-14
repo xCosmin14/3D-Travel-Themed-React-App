@@ -1,4 +1,4 @@
-import world from './world.json';
+import world from "./world.json";
 import "./App.css";
 
 export default function CountryData(props) {

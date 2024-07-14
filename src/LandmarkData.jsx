@@ -1,6 +1,6 @@
-import axios from 'axios';
+import axios from "axios";
 import "./App.css";
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 export default function LandmarkData(props) {
     const [landmarkData, setLandmarkData] = useState(null);
