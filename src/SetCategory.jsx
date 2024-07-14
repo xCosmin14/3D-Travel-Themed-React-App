@@ -49,7 +49,7 @@ const categoryImages = {
     "circuses": circus,
     "music_venues": concert,
     "cinemas": film,
-    "urban_environment": urban,
+    "urban_environment": nature,
     "megaliths": stone,
     "castles": tower,
     "monuments": tower,
