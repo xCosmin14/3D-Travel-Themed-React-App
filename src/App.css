@@ -1,0 +1,148 @@
+:root {
+  --white: #fff7eb;
+  --primary: #13a53a;
+}
+
+* {margin: 0; padding: 0;}
+body {
+  min-height: 100vh; overflow-y: hidden;
+  background-color: #090d0e;
+}
+
+b {color: var(--primary);}
+.active {fill: var(--primary)}
+
+video {
+  position: absolute; z-index: 0;
+  filter: invert(3%) sepia(4%) saturate(4225%) hue-rotate(145deg) brightness(109%) contrast(96%);
+}
+
+#box {
+  position: fixed; z-index: -1;
+  background: rgba(76, 98, 187, 0.2); opacity: .2;
+  border-radius: 50%;
+  box-shadow: rgba(76, 98, 187, 0.2) 0px 0px 30px 50px;
+}
+#map {
+  position: relative; top: -32px; z-index: 1;
+  margin-left: auto; margin-right:auto;
+  display: flex; flex-direction: row;
+  justify-content: center;
+  transition: .65s ease-in-out;
+}
+
+#country {
+  transition-property: fill;
+  transition-duration: .2s; transition-timing-function: ease-out;
+}
+#country:hover {cursor: pointer; fill: var(--primary);}
+
+#buttons {
+  position: absolute; z-index: 2;
+  left: 50px; bottom: 50px;
+  width: 325px;
+  display: flex; flex-direction: row;
+  justify-content: space-between;
+}
+#buttons button {
+  padding-inline: 10px; border-radius: 20px;
+  height: 40px;
+  background: none; border: 1px solid var(--white);
+  color: var(--white);
+  transition: .2s ease-out;
+}
+#buttons button:hover {
+  cursor: pointer;
+  background-color: #102a5a;
+  box-shadow: rgba(16, 42, 90, .2) 5px 5px 29px 5px;
+}
+
+#search {
+  position: relative; left: 50px; top: 50px;
+  width: fit-content;
+  z-index: 2;
+}
+#search input {
+  width: 325px; height: 30px;
+  background: none; color: var(--white);
+  padding-inline: 10px; border-radius: 20px;
+  border: 1px solid var(--white);
+  font-size: 20px;
+}
+#search input:focus {
+  outline: none;
+  transition: .2s ease-out;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 30px 0px;
+}
+
+::placeholder {opacity: 1;}
+#search input:focus::placeholder {opacity: .75;}
+
+#search img {position: absolute; right: 10px; top: 1px; width: 30px;}
+
+#coordinates {
+  position: absolute; z-index: 2;
+  top: 100px; left: 50px;
+  font-size: 1.3vw; color: var(--white);
+}
+
+#airport:hover, .activeAirport, #landmark:hover, .activeLandmark {
+  filter: invert(32%) sepia(26%) saturate(1199%) hue-rotate(173deg) brightness(93%) contrast(94%);
+  cursor: pointer;
+  margin-left: -20px; margin-top: -20px;
+}
+
+#countryData {
+  width: 325px; height: 100vh;
+  position: absolute; right: 0; top: 0;
+  display: flex; flex-direction: column;
+  align-items: center; padding-inline: 10px;
+  border-left: 2px solid var(--white);
+  border-top-left-radius: 20px; border-bottom-left-radius: 20px;
+  background-color: rgba(255, 247, 235, .05);
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 30px 0px;
+  transition: .2s ease-out;
+  z-index: 2;
+}
+#infoTitle {
+  margin-top: 20px;
+  font-size: 45px; color: var(--white);
+  width: 100%; text-align: center;
+}
+
+#airportData, #landmarkData {
+  position: absolute; z-index: 2;
+  left: 50px; top: 225px;
+  width: 305px; height: calc(100vh - 340px);
+  padding-inline: 10px;
+  border: 2px solid var(--white);
+  border-top-right-radius: 20px; border-bottom-right-radius: 20px;
+  background-color: rgba(255, 247, 235, .05);
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 30px 0px;
+  overflow: hidden;
+}
+
+#airportData h2, #landmarkData h2, #countryData h2 {
+  margin-top: 10px; text-align: center;
+  color: var(--white);
+  font-size: 30px; line-height: 1.2;
+}
+
+#landmarkData img {
+  width: 100%; max-height: 200px;
+  object-fit: fill;
+  margin-top: 10px;
+  border-top-right-radius: 10px;
+}
+#landmarkData h1 {margin-top: 10px;}
+#landmarkData p {
+  width: 100%;
+  margin-top: 20px; color: var(--white);
+  font-size: 20px; font-weight: bold;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
