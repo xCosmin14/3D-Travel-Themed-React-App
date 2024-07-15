@@ -18262,7 +18262,11 @@
             "type": "Feature",
             "properties": {
                 "name": "England",
-                "population": 55619400
+                "population": 55619400,
+                "capital": "London",
+                "currency": "English Pound",
+                "language": "English",
+                "code": "GB-ENG"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -19503,6 +19507,7 @@
                 "capital": "Nuuk",
                 "currency": "Danish krone",
                 "language": "Kalaallisut",
+                "code": "GL",
                 "flag": "https://restcountries.eu/data/grl.svg"
             },
             "geometry": {
@@ -34412,6 +34417,9 @@
             "properties": {
                 "name": "Russia",
                 "population": 144478050,
+                "capital": "Moscow",
+                "currency": "Russian Ruble",
+                "language": "Russian",
                 "code": "RU"
             },
             "geometry": {
@@ -41071,7 +41079,12 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Turkye"
+                "name": "Turkey",
+                "population": 85372337,
+                "capital": "Istanbul",
+                "currency": "Turkish Lira",
+                "language": "Turkish",
+                "code": "tr"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -41358,7 +41371,7 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Taiwan",
+                "name": "Taiwan",    
                 "capital": "Taipei",
                 "currency": "New Taiwan dollar",
                 "language": "Chinese",
