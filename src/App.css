@@ -14,7 +14,7 @@
   font-weight: 100; letter-spacing: 1px;
 }
 body {
-  min-height: 100vh; overflow-y: hidden;
+  min-height: 100vh; overflow: hidden;
   background-color: #090d0e;
 }
 
@@ -92,7 +92,7 @@ video {
 #coordinates {
   position: absolute; z-index: 2;
   top: 90px; left: 50px;
-  font-size: 1.3vw; color: var(--white);
+  font-size: 1.2vw; color: var(--white);
 }
 
 #airport:hover, .activeAirport, #landmark:hover, .activeLandmark {

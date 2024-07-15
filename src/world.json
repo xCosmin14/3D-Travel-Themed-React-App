@@ -1447,7 +1447,11 @@
             "type": "Feature",
             "properties": {
                 "name": "Antarctica",
-                "population": 1106
+                "population": 1106,
+                "capital": "N/A",
+                "currency": "N/A",
+                "language": "N/A",
+                "code": "AQ"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -6266,7 +6270,12 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "The Bahamas"
+                "name": "The Bahamas",
+                "population": 415287,
+                "capital": "Nassau",
+                "currency": "Bahamian dollar",
+                "language": "English",
+                "code": "BS"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -7862,6 +7871,9 @@
             "properties": {
                 "name": "Brunei",
                 "population": 428962,
+                "capital": "Bandar Seri Begawan",
+                "currency": "Brunei Dollar",
+                "language": "Brunei Malay",
                 "code": "BN"
             },
             "geometry": {
@@ -13323,7 +13335,11 @@
             "type": "Feature",
             "properties": {
                 "name": "Ivory Coast",
-                "population": 25069229
+                "population": 25069229,
+                "capital": "Yamoussoukro",
+                "currency": "Central African CFA franc",
+                "language": "French",
+                "code": "IE"
             },
             "geometry": {
                 "type": "Polygon",
@@ -13783,7 +13799,12 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Democratic Republic of the Congo"
+                "name": "Democratic Republic of the Congo",
+                "population": 105625114,
+                "capital": "Kinshasa",
+                "currency": "Congolese franc",
+                "language": "French",
+                "code": "CD"
             },
             "geometry": {
                 "type": "Polygon",
@@ -14495,7 +14516,7 @@
             "properties": {
                 "name": "Colombia",
                 "population": 49648685,
-                "capital": "Bogot\u00e1",
+                "capital": "Bogota",
                 "currency": "Colombian peso",
                 "language": "Spanish",
                 "flag": "https://restcountries.eu/data/col.svg",
@@ -15262,7 +15283,13 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Northern Cyprus"
+                "name": "Northern Cyprus",
+                "population": 382836,
+                "capital": "North Nicosia",
+                "currency": "Turkish Lira",
+                "language": "Turkish",
+                "flag": "https://restcountries.eu/data/cyp.svg",
+                "code": "CY"
             },
             "geometry": {
                 "type": "Polygon",
@@ -17624,6 +17651,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Fiji",
+                "population": 884887,
                 "capital": "Suva",
                 "currency": "Fijian dollar",
                 "language": "English",
@@ -19125,7 +19153,12 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Guinea Bissau"
+                "name": "Guinea Bissau",
+                "population": 2197149,
+                "capital": "Bissau",
+                "currency": "West African CFA franc",
+                "language": "Portuguese",
+                "code": "GW"
             },
             "geometry": {
                 "type": "Polygon",
@@ -22772,6 +22805,9 @@
             "properties": {
                 "name": "Iran",
                 "population": 81800269,
+                "capital": "Teheran",
+                "currency": "Iranian rial",
+                "language": "Persian",
                 "code": "IR"
             },
             "geometry": {
@@ -25139,7 +25175,11 @@
             "type": "Feature",
             "properties": {
                 "name": "South Korea",
-                "population": 51606633
+                "population": 51606633,
+                "capital": "Seoul",
+                "currency": "Won",
+                "language": "Korean",
+                "code": "kr"
             },
             "geometry": {
                 "type": "Polygon",
@@ -25382,6 +25422,9 @@
             "properties": {
                 "name": "Laos",
                 "population": 7061507,
+                "capital": "Vientiane",
+                "currency": "Laotian kip",
+                "language": "Lao",
                 "code": "LA"
             },
             "geometry": {
@@ -26628,6 +26671,9 @@
             "properties": {
                 "name": "Moldova",
                 "population": 2706049,
+                "capital": "Chișinău",
+                "currency": "Moldavian leu",
+                "language": "Romanian",
                 "code": "MD"
             },
             "geometry": {
@@ -27663,7 +27709,12 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Macedonia"
+                "name": "Macedonia",
+                "population": 1836713,
+                "capital": "Skopje",
+                "currency": "Macedonian dinar",
+                "language": "Macedonian",
+                "code": "MK"
             },
             "geometry": {
                 "type": "Polygon",
@@ -33628,7 +33679,7 @@
                 "capital": "San Juan",
                 "currency": "United States dollar",
                 "language": "Spanish",
-                "flag": "https://restcountries.eu/data/pri.svg"
+                "code": "PR"
             },
             "geometry": {
                 "type": "Polygon",
@@ -33678,7 +33729,11 @@
             "type": "Feature",
             "properties": {
                 "name": "North Korea",
-                "population": 25549819
+                "population": 25549819,
+                "capital": "Pyongyang",
+                "currency": "Won",
+                "language": "Korean",
+                "code": "kp"
             },
             "geometry": {
                 "type": "Polygon",
@@ -38863,7 +38918,12 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Republic of Serbia"
+                "name": "Republic of Serbia",
+                "population": 6647003,
+                "capital": "Belgrade",
+                "currency": "Serbian dinar",
+                "language": "Serbian",
+                "code": "RS"
             },
             "geometry": {
                 "type": "Polygon",
@@ -41372,6 +41432,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Taiwan",    
+                "population": 23347374,
                 "capital": "Taipei",
                 "currency": "New Taiwan dollar",
                 "language": "Chinese",
@@ -41425,7 +41486,13 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "United Republic of Tanzania"
+                "name": "United Republic of Tanzania",
+                "population": 63852892,
+                "capital": "Dodoma",
+                "currency": "Tanzanian shilling",
+                "language": "English",
+                "flag": "https://restcountries.eu/data/cyp.svg",
+                "code": "TZ"
             },
             "geometry": {
                 "type": "Polygon",
