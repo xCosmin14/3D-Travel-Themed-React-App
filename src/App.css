@@ -1,9 +1,18 @@
+@font-face {
+  font-family: Fubbick;
+  src: url("./assets/Fubbick.otf");
+}
+
 :root {
   --white: #fff7eb;
   --primary: #13a53a;
 }
 
-* {margin: 0; padding: 0;}
+* {
+  margin: 0; padding: 0;
+  font-family: Fubbick; 
+  font-weight: 100; letter-spacing: 1px;
+}
 body {
   min-height: 100vh; overflow-y: hidden;
   background-color: #090d0e;
@@ -67,7 +76,7 @@ video {
   background: none; color: var(--white);
   padding-inline: 10px; border-radius: 20px;
   border: 1px solid var(--white);
-  font-size: 20px;
+  font-size: 22px;
 }
 #search input:focus {
   outline: none;
@@ -82,7 +91,7 @@ video {
 
 #coordinates {
   position: absolute; z-index: 2;
-  top: 100px; left: 50px;
+  top: 90px; left: 50px;
   font-size: 1.3vw; color: var(--white);
 }
 
@@ -109,7 +118,7 @@ video {
 
 #infoTitle {
   margin-top: 20px;
-  font-size: 45px; color: var(--white);
+  font-size: 50px; color: var(--white);
   width: 100%; text-align: center;
 }
 
@@ -129,7 +138,7 @@ video {
 #airportData h2, #landmarkData h2, #countryData h2 {
   margin-top: 10px; text-align: center;
   color: var(--white);
-  font-size: 30px; line-height: 1.2;
+  font-size: 35px; line-height: 1.2;
 }
 
 #landmarkData img {
@@ -142,7 +151,7 @@ video {
 #landmarkData p {
   width: 100%;
   margin-top: 20px; color: var(--white);
-  font-size: 20px; font-weight: bold;
+  font-size: 22px; font-weight: bold;
   display: -webkit-box;
   -webkit-line-clamp: 7;
   -webkit-box-orient: vertical;  

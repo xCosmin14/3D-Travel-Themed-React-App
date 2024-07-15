@@ -143,7 +143,7 @@ export default function App() {
       })
       .attr("transform", d => {
         const coords = projectionRef.current([d.geometry.coordinates[0], d.geometry.coordinates[1]]);
-        return `translate(${coords[0]}, ${coords[1]})`;
+        return `translate(${coords[0]-3*zoomRef.current.k}, ${coords[1]-3*zoomRef.current.k})`;
       });
   }
 
