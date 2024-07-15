@@ -1,6 +1,2 @@
 https://www.postman.com/clientapi/workspace/apitude-by-hotelbeds/collection/295910-c411a5fa-523c-4048-afef-5afd52a294b4?tab=authorization
 https://www.postman.com/amadeus4dev/workspace/amadeus-for-developers-s-public-workspace/collection/2672636-27471449-d2ca-a8c4-1399-6b0cfbddd079
-
-
-https://github.com/cristiroma/countries/tree/main/data/flags/PNG-128
-PUNE-L PE GPT SA PUNA SI CODURILE DE 2 CIFRE CA SA POTI SA IEI IMAGINILE DIN TEMPLATE-UL DE GITHUB

@@ -7,6 +7,9 @@ export default function CountryData(props) {
     return <div id="countryData">
         <h1 id="infoTitle">Country data: <br></br><b>{props.countryName}</b></h1>
         
+        <img src=
+            {`https://www.worldflags101.com/download/small/${countryObj.properties.code.toLowerCase()}.png`} alt="" />
+
         <h2><br></br>Capital: {countryObj.properties.capital}</h2>
         <h2>Language: {countryObj.properties.language}</h2>
 

@@ -105,6 +105,8 @@ video {
   transition: .2s ease-out;
   z-index: 2;
 }
+#countryData img {margin-top: 30px;}
+
 #infoTitle {
   margin-top: 20px;
   font-size: 45px; color: var(--white);
