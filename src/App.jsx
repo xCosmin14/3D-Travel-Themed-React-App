@@ -41,15 +41,11 @@ export default function App() {
     fetchLandmarks(country);
   }
 
-  const resetCountryColor = () => {
-    document.querySelector(".active") && document.querySelector(".active").setAttribute("class", "");
-    d3.select(selectedCountry).attr("class", "active");
-  };
-
   const handleOutsideClick = (e) => {
     if (e.target.id !== "country" && e.target.id !== "searchBox" 
       && e.target.id !== "resetZoom" && e.target.id !== "airport" && e.target.id !== "landmark") {
-      resetCountryColor(); setSelectedCountry("");
+      document.querySelector(".active") && document.querySelector(".active").setAttribute("class", "");
+      setSelectedCountry("");
       setActiveAirport(""); params.delete("airport");
       setActiveLandmark(""); params.delete("landmark");
       updateAirports(""); updateLandmarks(""); landmarks = [];
@@ -244,7 +240,7 @@ export default function App() {
       projection.rotate([rotate[0] + event.dx * k, rotate[1] - event.dy * k]);
       svg.selectAll("path").attr("d", path);
       globe.style("cursor", "grab");
-      updateAirports(params.get("country")); updateLandmarks(params.get("country"));
+      updateAirports(params.get("country") || ""); updateLandmarks(params.get("country"));
     }))
       .call(d3.zoom().on("zoom", (event) => {
         if (event.transform.k > 0.5) {
@@ -264,7 +260,7 @@ export default function App() {
             document.getElementById("box").style.top = (0.57 / event.transform.k) * 5.5 + "vh";
         } else event.transform.k = 0.5;
 
-        updateAirports(params.get("country")); updateLandmarks(params.get("country"));
+        updateAirports(params.get("country") || ""); updateLandmarks(params.get("country"));
       }));
 
     const map = svg.append("g");
@@ -279,7 +275,7 @@ export default function App() {
       .on("click", function (event, d) {
         params.set("country", d.properties.name);
         window.history.replaceState({}, "", `${window.location.pathname}?${params.toString()}`);
-        resetCountryColor();
+        document.querySelector(".active") && document.querySelector(".active").setAttribute("class", "");
         setSelectedCountry(d.properties.name);
         d3.select(this).attr("class", "active");
 

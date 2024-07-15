@@ -9,7 +9,8 @@
         "capital": "Kabul",
         "currency": "Afghan afghani",
         "language": "Pashto",
-        "flag": "https://restcountries.eu/data/afg.svg"
+        "flag": "https://restcountries.eu/data/afg.svg",
+        "code": "AF"
       },
       "geometry": {
         "type": "Polygon",
@@ -304,7 +305,8 @@
         "capital": "Luanda",
         "currency": "Angolan kwanza",
         "language": "Portuguese",
-        "flag": "https://restcountries.eu/data/ago.svg"
+        "flag": "https://restcountries.eu/data/ago.svg",
+        "code": "AO"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -629,7 +631,8 @@
         "capital": "Tirana",
         "currency": "Albanian lek",
         "language": "Albanian",
-        "flag": "https://restcountries.eu/data/alb.svg"
+        "flag": "https://restcountries.eu/data/alb.svg",
+        "code": "AL"
       },
       "geometry": {
         "type": "Polygon",
@@ -736,7 +739,8 @@
         "capital": "Abu Dhabi",
         "currency": "United Arab Emirates dirham",
         "language": "Arabic",
-        "flag": "https://restcountries.eu/data/are.svg"
+        "flag": "https://restcountries.eu/data/are.svg",
+        "code": "AE"
       },
       "geometry": {
         "type": "Polygon",
@@ -843,7 +847,8 @@
         "capital": "Buenos Aires",
         "currency": "Argentine peso",
         "language": "Spanish",
-        "flag": "https://restcountries.eu/data/arg.svg"
+        "flag": "https://restcountries.eu/data/arg.svg",
+        "code": "AR"
       },
       "geometry": {
         "type": "MultiPolygon",
