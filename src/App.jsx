@@ -299,8 +299,8 @@ export default function App() {
       </form>
       
       <div id="coordinates">
-        <h1>Lng: {Math.floor(masterCentroid[0])}°, {Math.abs(masterCentroid[0]%1).toFixed(2).replace(/^0\./, "")%60}"</h1>
-        <h1>Lat: {Math.floor(masterCentroid[1])}°, {Math.abs(masterCentroid[1]%1).toFixed(2).replace(/^0\./, "")%60}"</h1>
+        <h1>Lng: {Math.floor(masterCentroid[0])}°, {Math.abs(masterCentroid[0]%1).toFixed(2).replace(/^0\./, "")%60}'</h1>
+        <h1>Lat: {Math.floor(masterCentroid[1])}°, {Math.abs(masterCentroid[1]%1).toFixed(2).replace(/^0\./, "")%60}'</h1>
       </div>
 
       <div id="map" ref={mapRef} style={{ width: "100%", height: "105.65vh" }}>
