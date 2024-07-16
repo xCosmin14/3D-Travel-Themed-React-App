@@ -1,17 +1,16 @@
 @font-face {
   font-family: Fubbick;
-  src: url("./assets/Fubbick.otf");
+  src: url("./assets/Meditative.ttf");
 }
 
 :root {
-  --white: #fff7eb;
+  --white: #fff7eb; --whiteBorer: rgba(255, 247, 235, .6);
   --primary: #13a53a;
 }
 
 * {
   margin: 0; padding: 0;
-  font-family: Fubbick; 
-  font-weight: 100; letter-spacing: 1px;
+  font-family: Fubbick; letter-spacing: 1px;
 }
 body {
   min-height: 100vh; overflow: hidden;
@@ -24,6 +23,7 @@ b {color: var(--primary);}
 video {
   position: absolute; z-index: 0;
   filter: invert(3%) sepia(4%) saturate(4225%) hue-rotate(145deg) brightness(109%) contrast(96%);
+  opacity: .5;
 }
 
 #box {
@@ -72,11 +72,11 @@ video {
   z-index: 2;
 }
 #search input {
-  width: 325px; height: 30px;
+  width: 310px; height: 30px;
   background: none; color: var(--white);
   padding-inline: 10px; border-radius: 20px;
   border: 1px solid var(--white);
-  font-size: 22px;
+  font-size: 25px;
 }
 #search input:focus {
   outline: none;
@@ -92,7 +92,7 @@ video {
 #coordinates {
   position: absolute; z-index: 2;
   top: 90px; left: 50px;
-  font-size: 1.2vw; color: var(--white);
+  font-size: 1.4vw; color: var(--white);
 }
 
 #airport:hover, .activeAirport, #landmark:hover, .activeLandmark {
@@ -106,19 +106,19 @@ video {
   position: absolute; right: 0; top: 0;
   display: flex; flex-direction: column;
   align-items: center; padding-inline: 10px;
-  border-left: 2px solid var(--white);
+  border-left: 2px solid var(--whiteBorer);
   border-top-left-radius: 20px; border-bottom-left-radius: 20px;
-  background-color: rgba(255, 247, 235, .05);
+  background-color: rgba(9, 13, 14, .85);
   backdrop-filter: blur(5px);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 30px 0px;
   transition: .2s ease-out;
   z-index: 2;
 }
-#countryData img {margin-top: 30px;}
+#countryData img {margin-top: 30px; margin-bottom: -20px;}
 
 #infoTitle {
   margin-top: 20px;
-  font-size: 50px; color: var(--white);
+  font-size: 54px; color: var(--white);
   width: 100%; text-align: center;
 }
 
@@ -127,18 +127,18 @@ video {
   left: 50px; top: 225px;
   width: 305px; height: calc(100vh - 340px);
   padding-inline: 10px;
-  border: 2px solid var(--white);
+  border: 2px solid var(--whiteBorer);
   border-top-right-radius: 20px; border-bottom-right-radius: 20px;
-  background-color: rgba(255, 247, 235, .05);
+  background-color: rgba(9, 13, 14, .85);
   backdrop-filter: blur(5px);
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 30px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 3px 10px 3px;
   overflow: hidden;
 }
 
 #airportData h2, #landmarkData h2, #countryData h2 {
   margin-top: 10px; text-align: center;
   color: var(--white);
-  font-size: 35px; line-height: 1.2;
+  font-size: 36px; line-height: 1.2;
 }
 
 #landmarkData img {
@@ -151,7 +151,7 @@ video {
 #landmarkData p {
   width: 100%;
   margin-top: 20px; color: var(--white);
-  font-size: 22px; font-weight: bold;
+  font-size: 24px; font-weight: bold;
   display: -webkit-box;
   -webkit-line-clamp: 7;
   -webkit-box-orient: vertical;  
