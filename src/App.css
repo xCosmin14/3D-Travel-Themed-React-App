@@ -22,7 +22,6 @@ b {color: var(--primary);}
 
 video {
   position: absolute; z-index: 0;
-  filter: invert(3%) sepia(4%) saturate(4225%) hue-rotate(145deg) brightness(109%) contrast(96%);
   opacity: .5;
 }
 
