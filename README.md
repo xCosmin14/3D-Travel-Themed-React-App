@@ -26,6 +26,3 @@
    * ### [Airport component](http://localhost:5173/Docs/Airport_component.html)
    * ### [Landmark component](http://localhost:5173/Docs/Landmark_component.html)
    * ### [Country component](http://localhost:5173/Docs/Country_component.html)
-
- ## Wowzers video of the app
- ![](3D-Travel-Themed-React-App/Example_video.gif)
