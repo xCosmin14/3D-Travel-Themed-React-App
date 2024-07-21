@@ -14,17 +14,17 @@
 
 ## Concepts:
  ### 1 - Working with data:
-   * ### [Local JSON objects](http://localhost:5173/Docs/JSON_objects)
-   * ### [Fetching all landmarks](http://localhost:5173/Docs/Fetching_all_landmarks)
-   * ### [Attributing images to every landmark](http://localhost:5173/Docs/SetCategory)
-   * ### [Fetching individual landmark information](http://localhost:5173/Docs/Fetching_individual_landmark_info)
+   * ### [Local JSON objects](http://localhost:5173/Docs/Data/JSON_objects)
+   * ### [Fetching all landmarks](http://localhost:5173/Docs/Data/Fetching_all_landmarks)
+   * ### [Attributing images to every landmark](http://localhost:5173/Data/Docs/SetCategory)
+   * ### [Fetching individual landmark information](http://localhost:5173/Docs/Data/Fetching_individual_landmark_info)
 
  ### 2 - User Experience:
-   * ### [Globe controls](http://localhost:5173/Docs/Globe_controls)
-   * ### [Coordinate-based user interaction](http://localhost:5173/Docs/Coordinate-based_user_interaction)
-   * ### [Country search by namen](http://localhost:5173/Docs/Country_search_by_name)
+   * ### [Globe controls](http://localhost:5173/Docs/UX/Globe_controls)
+   * ### [Coordinate-based user interaction](http://localhost:5173/Docs/UX/Coordinate-based_user_interaction)
+   * ### [Country search by namen](http://localhost:5173/Docs/UX/Country_search_by_name)
 
  ### 3 - Components:
-   * ### [Airport component](http://localhost:5173/Docs/Airport_component)
-   * ### [Landmark component](http://localhost:5173/Docs/Landmark_component)
-   * ### [Country component](http://localhost:5173/Docs/Country_component)
+   * ### [Airport component](http://localhost:5173/Docs/Components/Airport_component)
+   * ### [Landmark component](http://localhost:5173/Docs/Components/Landmark_component)
+   * ### [Country component](http://localhost:5173/Docs/Components/Country_component)
