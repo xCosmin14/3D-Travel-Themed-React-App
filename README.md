@@ -28,4 +28,4 @@
    * ### [Country component](http://localhost:5173/Docs/Country_component.html)
 
  ## Wowzers video of the app
- ![](Example_video.gif)
+ ![](/Example_video.gif)
