@@ -1,5 +1,5 @@
 # 3D Travel Themed App in React.js and D3.js
-### This application fetches data of airports and touristic attractions all around the world and **display them on a 3D globe**.
+### This application fetches data of airports and touristic attractions all around the world and **display them on a 3D globe**. This includes country info such as flag, population, currency and language, and landmark information such as city, description and coordinates.
 ### Uses carefully curated world data JSON and [OpenTripMap API](https://dev.opentripmap.org/product).
 
 [![forthebadge](https://forthebadge.com/images/featured/featured-built-with-love.svg)](https://forthebadge.com)
